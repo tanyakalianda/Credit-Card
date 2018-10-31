@@ -85,11 +85,19 @@ public class CreditCard
 		return interestRate;
 	}
 	
+	/**
+	 * returns the account holder's name
+	 * @return            account holder's name
+	 */
 	public String getHolderName()
 	{
 		return holderName;
 	}
 	
+	/**
+	 * converts the card into a string representation
+	 * prints card number, name, balance, interest rate, and limit
+	 */
 	public String toString()
 	{
 		return "Card Number: " + CARDNUM +  " Name: " + holderName + " Balance: " + balance + " Rate: " + interestRate + " Limit: " + limit;
