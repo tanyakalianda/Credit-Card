@@ -1,7 +1,7 @@
 /**
  * 
- * @author tkalianda19
- *
+ * @author Tanya Kalianda
+ * Credit Card
  */
 public class CreditCard
 {
@@ -21,7 +21,7 @@ public class CreditCard
 	}
 
 	/**
-	 * adds the amount charged to the balance
+	 * adds the amount charged to the balance as long as the balance is under the limit
 	 * @param amount       Amount charged
 	 */
 	public void charge(double amount)
@@ -51,7 +51,7 @@ public class CreditCard
 	
 	/**
 	 * returns the card number of the credit card (a constant)
-	 * @return Card Number
+	 * @return CARDNUM        Card Number
 	 */
 	public int getCardNum()
 	{
@@ -78,7 +78,7 @@ public class CreditCard
 	
 	/**
 	 * returns the interest rate 
-	 * @return interest rate
+	 * @return interestRate      interest rate
 	 */
 	public double getInterestRate()
 	{
@@ -87,7 +87,7 @@ public class CreditCard
 	
 	/**
 	 * returns the account holder's name
-	 * @return            account holder's name
+	 * @return holderName     account holder's name
 	 */
 	public String getHolderName()
 	{
